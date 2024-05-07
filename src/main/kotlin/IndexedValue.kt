@@ -10,5 +10,5 @@ fun main() {
     val filteredValues = numbers.withIndex()
         .filter { indexedValue -> indexedValue.index % 2 == 0 }
         .map { indexedValue -> indexedValue.value * 2 }
-    println("FilterValues: $filteredValues")
+    println("filtered Values: $filteredValues")
 }
